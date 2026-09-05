@@ -1,0 +1,18 @@
+{
+  "name": "cine-api",
+  "version": "1.0.0",
+  "description": "API REST Cine para administración de películas favoritas de trabajadores y colaboradores de IPLACEX",
+  "license": "apache",
+  "author": "IPLACEX Felipe Rosales",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": ""
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0"
+  }
+}
